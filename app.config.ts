@@ -2,7 +2,7 @@ export default defineAppConfig({
   shadcnDocs: {
     site: {
       name: 'CRXJS',
-      description: 'CRXJS Vite Plugin is a tool that helps you make Chrome Extensions using modern web development technology.',
+      description: 'Modern Chrome extension development with built-in HMR and zero-config setup',
     },
     theme: {
       customizable: true,
