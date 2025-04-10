@@ -1,0 +1,93 @@
+<template>
+  <CodeTree
+    default-value="manifest.config.ts"
+    title="crxjs-solid"
+  >
+    <ImageDisplay
+      url="/template-vanilla-ts/public/logo.png"
+      alt-text="crx_logo"
+      filename="public/logo.png"
+    />
+    <ImageDisplay
+      url="/template-vanilla-ts/src/assets/crx.svg"
+      alt-text="crx_logo"
+      filename="src/assets/crx.svg"
+    />
+    <ImageDisplay
+      url="/template-solid-ts/src/assets/solid.svg"
+      alt-text="solid_logo"
+      filename="src/assets/solid.svg"
+    />
+    <ImageDisplay
+      url="/template-vanilla-ts/src/assets/vite.svg"
+      alt-text="vite_logo"
+      filename="src/assets/vite.svg"
+    />
+
+    <CodeSnippet
+      url="/template-solid-ts/src/content/views/App.css"
+      language="css"
+      filename="src/content/views/App.css"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/src/content/views/App.tsx"
+      language="tsx"
+      filename="src/content/views/App.tsx"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/src/content/main.ts"
+      language="ts"
+      filename="src/content/main.ts"
+    />
+
+    <CodeSnippet
+      url="/template-solid-ts/src/popup/App.css"
+      language="css"
+      filename="src/popup/App.css"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/src/popup/App.tsx"
+      language="tsx"
+      filename="src/popup/App.tsx"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/src/popup/index.css"
+      language="css"
+      filename="src/popup/index.css"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/src/popup/index.html"
+      language="html"
+      filename="src/popup/index.html"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/src/popup/index.tsx"
+      language="tsx"
+      filename="src/popup/index.tsx"
+    />
+
+    <CodeSnippet
+      url="/template-vanilla-ts/manifest.config.ts"
+      language="ts"
+      filename="manifest.config.ts"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/package.json"
+      language="json"
+      filename="package.json"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/tsconfig.json"
+      language="json"
+      filename="tsconfig.json"
+    />
+    <CodeSnippet
+      url="/template-solid-ts/vite.config.ts"
+      language="ts"
+      filename="vite.config.ts"
+    />
+  </CodeTree>
+</template>
+
+<script setup lang="ts">
+</script>
