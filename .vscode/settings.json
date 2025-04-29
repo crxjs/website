@@ -13,20 +13,8 @@
       "source.fixAll.eslint": "explicit",
       "source.organizeImports": "never"
     },
-  
-    // Silent the stylistic rules in you IDE, but still auto fix them
-    "eslint.rules.customizations": [
-      { "rule": "style/*", "severity": "off", "fixable": true },
-      { "rule": "format/*", "severity": "off", "fixable": true },
-      { "rule": "*-indent", "severity": "off", "fixable": true },
-      { "rule": "*-spacing", "severity": "off", "fixable": true },
-      { "rule": "*-spaces", "severity": "off", "fixable": true },
-      { "rule": "*-order", "severity": "off", "fixable": true },
-      { "rule": "*-dangle", "severity": "off", "fixable": true },
-      { "rule": "*-newline", "severity": "off", "fixable": true },
-      { "rule": "*quotes", "severity": "off", "fixable": true },
-      { "rule": "*semi", "severity": "off", "fixable": true }
-    ],
+
+    "mdc.enableComponentMetadataCompletions": true,
   
     // Enable eslint for all supported languages
     "eslint.validate": [

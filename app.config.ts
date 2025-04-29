@@ -31,14 +31,36 @@ export default defineAppConfig({
     main: {
       breadCrumb: true,
       showTitle: true,
+      codeCopyToast: true,
+      codeCopyIcon: 'lucide:clipboard',
+      editLink: {
+        enable: true,
+        pattern: 'https://github.com/crxjs/website/edit/main/content/:path',
+        text: 'Edit this page',
+        icon: 'lucide:square-pen',
+        placement: ['docsFooter'],
+      },
+      codeIcon: {
+        'vite.config.ts': 'vscode-icons:file-type-vite',
+        'html': 'vscode-icons:file-type-html',
+        'svg': 'vscode-icons:file-type-svg',
+        'png': 'vscode-icons:file-type-image',
+      }
     },
     footer: {
       credits: 'Copyright © 2025',
-      links: [{
-        icon: 'lucide:github',
-        to: 'https://github.com/crxjs/chrome-extension-tools',
-        target: '_blank',
-      }],
+      links: [
+        {
+          icon: 'simple-icons:discord',
+          to: 'https://discord.gg/xGaY4bV8',
+          target: '_blank',
+        },
+        {
+          icon: 'lucide:github',
+          to: 'https://github.com/crxjs/chrome-extension-tools',
+          target: '_blank',
+        }
+      ],
     },
     toc: {
       enable: true,

@@ -1,24 +1,46 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
+
   modules: [
+    '@nuxt/image',
     '@nuxt/eslint',
     '@vueuse/motion/nuxt',
     '@nuxt/content',
     '@nuxt/scripts',
+    'nuxt-llms'
   ],
+
   components: [
     {
-      path: '@/components',
+      path: '~/components',
       pathPrefix: false,
-      ignore: ['**/*.ts'],
     },
   ],
   devtools: { enabled: true },
+
+  site: {
+    url: 'https://crxjs.dev',
+    title: 'CRXJS',
+    description:
+      'Modern Chrome extension development with built-in HMR and zero-config setup.',
+  },
+
   compatibilityDate: '2024-07-06',
+
   eslint: {
     config: {
-      stylistic: true,
+      standalone: false,
+    },
+  },
+
+  llms: {
+    domain: 'https://crxjs-website.netlify.app/',
+    title: 'CRXJS',
+    description:
+      'Modern Chrome extension development with built-in HMR and zero-config setup.',
+    full: {
+      title: 'CRXJS Documentation',
+      description: 'The complete CRXJS documentation.',
     },
   },
 })
