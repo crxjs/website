@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     '@nuxt/content',
     '@nuxt/scripts',
-    'nuxt-llms'
+    'nuxt-llms',
   ],
 
   components: [
@@ -30,6 +30,9 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       standalone: false,
+      nuxt: {
+        sortConfigKeys: true,
+      },
     },
   },
 

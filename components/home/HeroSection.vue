@@ -1,3 +1,15 @@
+<script setup lang="ts">
+defineProps<{
+  announcement: {
+    title: string
+    icon: string
+    to: string
+    target: string
+  }
+}>()
+const isDark = computed(() => useColorMode().value === 'dark')
+</script>
+
 <template>
   <section
     class="relative mx-auto flex min-h-[52rem] max-w-[800px] flex-col items-center justify-center gap-2 py-8 max-sm:min-h-[28rem] lg:py-24 lg:pb-20 md:py-12 md:pb-8"
@@ -66,15 +78,3 @@
     </div>
   </section>
 </template>
-
-<script setup lang="ts">
-defineProps<{
-  announcement: {
-    title: string
-    icon: string
-    to: string
-    target: string
-  }
-}>()
-const isDark = computed(() => useColorMode().value == 'dark')
-</script>

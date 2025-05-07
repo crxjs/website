@@ -1,17 +1,7 @@
-<template>
-  <div
-    ref="canvasContainerRef"
-    :class="$props.class"
-    aria-hidden="true"
-  >
-    <canvas ref="canvasRef" />
-  </div>
-</template>
-
 <script setup lang="ts">
-import { useMouse, useDevicePixelRatio } from '@vueuse/core'
+import { useDevicePixelRatio, useMouse } from '@vueuse/core'
 
-type Circle = {
+interface Circle {
   x: number
   y: number
   translateX: number
@@ -24,7 +14,7 @@ type Circle = {
   magnetism: number
 }
 
-type Props = {
+interface Props {
   color?: string
   quantity?: number
   staticity?: number
@@ -62,7 +52,7 @@ const color = computed(() => {
   }
 
   // Parse the r, g, b values from the hex string
-  const bigint = parseInt(hex, 16)
+  const bigint = Number.parseInt(hex, 16)
   const r = (bigint >> 16) & 255 // Extract the red component
   const g = (bigint >> 8) & 255 // Extract the green component
   const b = bigint & 255 // Extract the blue component
@@ -116,8 +106,8 @@ function resizeCanvas() {
     canvasSize.h = canvasContainerRef.value.offsetHeight
     canvasRef.value.width = canvasSize.w * pixelRatio.value
     canvasRef.value.height = canvasSize.h * pixelRatio.value
-    canvasRef.value.style.width = canvasSize.w + 'px'
-    canvasRef.value.style.height = canvasSize.h + 'px'
+    canvasRef.value.style.width = `${canvasSize.w}px`
+    canvasRef.value.style.height = `${canvasSize.h}px`
     context.value.scale(pixelRatio.value, pixelRatio.value)
   }
 }
@@ -129,7 +119,7 @@ function circleParams(): Circle {
   const translateY = 0
   const size = Math.floor(Math.random() * 2) + 1
   const alpha = 0
-  const targetAlpha = parseFloat((Math.random() * 0.6 + 0.1).toFixed(1))
+  const targetAlpha = Number.parseFloat((Math.random() * 0.6 + 0.1).toFixed(1))
   const dx = (Math.random() - 0.5) * 0.2
   const dy = (Math.random() - 0.5) * 0.2
   const magnetism = 0.1 + Math.random() * 4
@@ -201,11 +191,12 @@ function animate() {
     ]
 
     const closestEdge = edge.reduce((a, b) => Math.min(a, b))
-    const remapClosestEdge = parseFloat(remapValue(closestEdge, 0, 20, 0, 1).toFixed(2))
+    const remapClosestEdge = Number.parseFloat(remapValue(closestEdge, 0, 20, 0, 1).toFixed(2))
 
     if (remapClosestEdge > 1) {
       circle.alpha += 0.02
-      if (circle.alpha > circle.targetAlpha) circle.alpha = circle.targetAlpha
+      if (circle.alpha > circle.targetAlpha)
+        circle.alpha = circle.targetAlpha
     }
     else {
       circle.alpha = circle.targetAlpha * remapClosestEdge
@@ -249,3 +240,13 @@ function animate() {
   window.requestAnimationFrame(animate)
 }
 </script>
+
+<template>
+  <div
+    ref="canvasContainerRef"
+    :class="$props.class"
+    aria-hidden="true"
+  >
+    <canvas ref="canvasRef" />
+  </div>
+</template>

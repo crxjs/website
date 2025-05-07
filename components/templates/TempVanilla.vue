@@ -1,3 +1,6 @@
+<script setup lang="ts">
+</script>
+
 <template>
   <CodeTree
     default-value="manifest.config.ts"
@@ -70,6 +73,3 @@
     />
   </CodeTree>
 </template>
-
-<script setup lang="ts">
-</script>

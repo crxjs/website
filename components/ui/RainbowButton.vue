@@ -1,3 +1,20 @@
+<script setup lang="ts">
+import { cn } from '@/lib/utils'
+
+interface RainbowButtonProps {
+  class?: string
+  is?: string
+  speed?: number
+}
+
+const props = withDefaults(defineProps<RainbowButtonProps>(), {
+  speed: 2,
+  is: 'button',
+})
+
+const speedInSeconds = computed(() => `${props.speed}s`)
+</script>
+
 <template>
   <component
     :is="is"
@@ -15,23 +32,6 @@
     <slot />
   </component>
 </template>
-
-<script setup lang="ts">
-import { cn } from '@/lib/utils'
-
-interface RainbowButtonProps {
-  class?: string
-  is?: string
-  speed?: number
-}
-
-const props = withDefaults(defineProps<RainbowButtonProps>(), {
-  speed: 2,
-  is: 'button',
-})
-
-const speedInSeconds = computed(() => `${props.speed}s`)
-</script>
 
 <style scoped>
 .rainbow-button {

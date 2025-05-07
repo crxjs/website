@@ -1,20 +1,3 @@
-<template>
-  <MDC
-    v-if="loadedCode"
-    :value="md"
-    class="first:-mb-5"
-  />
-  <UiAlert
-    v-else
-    variant="destructive"
-  >
-    <UiAlertTitle>Error</UiAlertTitle>
-    <UiAlertDescription>
-      Cannot load code: <ProseCodeInline>{{ url }}</ProseCodeInline>
-    </UiAlertDescription>
-  </UiAlert>
-</template>
-
 <script setup lang="ts">
 const { url, language, filename } = defineProps<{
   url: string
@@ -26,7 +9,7 @@ const loadedCode = ref('')
 
 try {
   const data = await $fetch<string>(
-    'https://raw.githubusercontent.com/crxjs/create-crxjs/refs/heads/main' + url,
+    `https://raw.githubusercontent.com/crxjs/create-crxjs/refs/heads/main${url}`,
     { parseResponse: txt => txt },
   )
   if (data) {
@@ -43,3 +26,20 @@ ${loadedCode.value}
 \`\`\`\`
 `
 </script>
+
+<template>
+  <MDC
+    v-if="loadedCode"
+    :value="md"
+    class="first:-mb-5"
+  />
+  <UiAlert
+    v-else
+    variant="destructive"
+  >
+    <UiAlertTitle>Error</UiAlertTitle>
+    <UiAlertDescription>
+      Cannot load code: <ProseCodeInline>{{ url }}</ProseCodeInline>
+    </UiAlertDescription>
+  </UiAlert>
+</template>

@@ -45,7 +45,7 @@ export default defineAppConfig({
         'html': 'vscode-icons:file-type-html',
         'svg': 'vscode-icons:file-type-svg',
         'png': 'vscode-icons:file-type-image',
-      }
+      },
     },
     footer: {
       credits: 'Copyright © 2025',
@@ -59,7 +59,7 @@ export default defineAppConfig({
           icon: 'lucide:github',
           to: 'https://github.com/crxjs/chrome-extension-tools',
           target: '_blank',
-        }
+        },
       ],
     },
     toc: {

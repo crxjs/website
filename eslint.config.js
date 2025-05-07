@@ -1,7 +1,11 @@
-import withNuxt from './.nuxt/eslint.config.mjs'
+// @ts-check
+import antfu from '@antfu/eslint-config'
+import nuxt from './.nuxt/eslint.config.mjs'
 
-export default withNuxt({
-  rules: {
-    'vue/multi-word-component-names': 'off',
+export default antfu(
+  {
+    formatters: true,
+    markdown: false,
   },
-})
+)
+  .append(nuxt())
