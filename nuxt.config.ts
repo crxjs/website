@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     'nuxt-llms',
+    '@nuxt/fonts'
   ],
 
   components: [
