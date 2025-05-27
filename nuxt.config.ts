@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     'nuxt-llms',
-    '@nuxt/fonts'
+    '@nuxt/fonts',
   ],
 
   components: [
@@ -24,6 +24,12 @@ export default defineNuxtConfig({
     title: 'CRXJS',
     description:
       'Modern Chrome extension development with built-in HMR and zero-config setup.',
+  },
+
+  mdc: {
+    highlight: {
+      langs: ['svelte', 'tsx'],
+    },
   },
 
   compatibilityDate: '2024-07-06',

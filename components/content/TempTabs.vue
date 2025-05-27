@@ -14,7 +14,7 @@
     </div>
     <div
       label="React"
-      icon="vscode-icons:file-type-reactjs"
+      icon="devicon:react"
     >
       <TempReact />
     </div>
@@ -23,6 +23,12 @@
       icon="devicon:solidjs"
     >
       <TempSolid />
+    </div>
+    <div
+      label="Svelte"
+      icon="devicon:svelte"
+    >
+      <TempSvelte />
     </div>
   </Tabs>
 </template>

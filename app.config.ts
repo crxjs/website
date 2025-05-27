@@ -45,6 +45,7 @@ export default defineAppConfig({
         'html': 'vscode-icons:file-type-html',
         'svg': 'vscode-icons:file-type-svg',
         'png': 'vscode-icons:file-type-image',
+        'svelte': 'vscode-icons:file-type-svelte',
       },
     },
     footer: {
