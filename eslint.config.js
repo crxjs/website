@@ -7,5 +7,4 @@ export default antfu(
     formatters: true,
     markdown: false,
   },
-)
-  .append(nuxt())
+).append(nuxt())
