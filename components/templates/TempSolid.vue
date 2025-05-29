@@ -28,6 +28,12 @@
     />
 
     <CodeSnippet
+      url="/template-solid-ts/src/components/HelloWorld.tsx"
+      language="svelte"
+      filename="src/components/HelloWorld.tsx"
+    />
+
+    <CodeSnippet
       url="/template-solid-ts/src/content/views/App.css"
       language="css"
       filename="src/content/views/App.css"

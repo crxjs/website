@@ -28,6 +28,12 @@
     />
 
     <CodeSnippet
+      url="/template-vue-ts/src/components/HelloWorld.vue"
+      language="vue"
+      filename="src/components/HelloWorld.vue"
+    />
+
+    <CodeSnippet
       url="/template-vue-ts/src/content/views/App.vue"
       language="vue"
       filename="src/content/views/App.vue"
@@ -38,11 +44,6 @@
       filename="src/content/main.ts"
     />
 
-    <CodeSnippet
-      url="/template-vue-ts/src/popup/components/HelloWorld.vue"
-      language="vue"
-      filename="src/popup/components/HelloWorld.vue"
-    />
     <CodeSnippet
       url="/template-vue-ts/src/popup/App.vue"
       language="vue"

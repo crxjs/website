@@ -28,6 +28,12 @@
     />
 
     <CodeSnippet
+      url="/template-svelte-ts/src/components/HelloWorld.svelte"
+      language="svelte"
+      filename="src/components/HelloWorld.svelte"
+    />
+
+    <CodeSnippet
       url="/template-svelte-ts/src/content/views/App.svelte"
       language="svelte"
       filename="src/content/views/App.svelte"
@@ -38,11 +44,6 @@
       filename="src/content/main.ts"
     />
 
-    <CodeSnippet
-      url="/template-svelte-ts/src/popup/components/HelloWorld.svelte"
-      language="svelte"
-      filename="src/popup/components/HelloWorld.svelte"
-    />
     <CodeSnippet
       url="/template-svelte-ts/src/popup/App.svelte"
       language="svelte"
