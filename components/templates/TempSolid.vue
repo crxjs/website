@@ -29,7 +29,7 @@
 
     <CodeSnippet
       url="/template-solid-ts/src/components/HelloWorld.tsx"
-      language="svelte"
+      language="tsx"
       filename="src/components/HelloWorld.tsx"
     />
 

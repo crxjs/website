@@ -29,7 +29,7 @@
 
     <CodeSnippet
       url="/template-react-ts/src/components/HelloWorld.tsx"
-      language="svelte"
+      language="tsx"
       filename="src/components/HelloWorld.tsx"
     />
 
@@ -44,16 +44,11 @@
       filename="src/content/views/App.tsx"
     />
     <CodeSnippet
-      url="/template-react-ts/src/content/main.ts"
-      language="ts"
-      filename="src/content/main.ts"
+      url="/template-react-ts/src/content/main.tsx"
+      language="tsx"
+      filename="src/content/main.tsx"
     />
 
-    <CodeSnippet
-      url="/template-react-ts/src/popup/components/HelloWorld.tsx"
-      language="tsx"
-      filename="src/popup/components/HelloWorld.tsx"
-    />
     <CodeSnippet
       url="/template-react-ts/src/popup/App.css"
       language="css"
