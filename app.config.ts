@@ -56,7 +56,7 @@ export default defineAppConfig({
       links: [
         {
           icon: 'simple-icons:discord',
-          to: 'https://discord.gg/xGaY4bV8',
+          to: 'https://discord.gg/5yHKEa9v',
           target: '_blank',
         },
         {

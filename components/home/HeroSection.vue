@@ -60,7 +60,7 @@ const isDark = computed(() => useColorMode().value === 'dark')
     </span>
 
     <div class="mt-4 flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
-      <NuxtLink to="/guide/installation">
+      <NuxtLink to="/guide/installation/create-crxjs">
         <RainbowButton> Get Started </RainbowButton>
       </NuxtLink>
       <NuxtLink
