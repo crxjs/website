@@ -4,7 +4,9 @@ import nuxt from './.nuxt/eslint.config.mjs'
 
 export default antfu(
   {
-    formatters: true,
+    formatters: {
+      markdown: false,
+    },
     markdown: false,
   },
 ).append(nuxt())
