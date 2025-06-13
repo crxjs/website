@@ -2,13 +2,9 @@ export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
 
   modules: [
-    '@nuxt/image',
     '@nuxt/eslint',
     '@vueuse/motion/nuxt',
-    '@nuxt/content',
-    '@nuxt/scripts',
     'nuxt-llms',
-    '@nuxt/fonts',
   ],
 
   components: [
@@ -41,6 +37,17 @@ export default defineNuxtConfig({
         sortConfigKeys: true,
       },
     },
+  },
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: [
+      {
+        code: 'en',
+        name: 'English',
+        language: 'en-US',
+      },
+    ],
   },
 
   llms: {
