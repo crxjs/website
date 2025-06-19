@@ -1,10 +1,10 @@
+import type { LLMsSection } from 'nuxt-llms'
+
 export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
 
   modules: [
-    '@nuxt/image',
     '@nuxt/eslint',
-    '@nuxt/scripts',
     'motion-v/nuxt',
     'nuxt-llms',
   ],
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-07-06',
+  compatibilityDate: '2025-06-21',
 
   eslint: {
     config: {
@@ -52,13 +52,67 @@ export default defineNuxtConfig({
   },
 
   llms: {
-    domain: 'https://crxjs-website.netlify.app/',
-    title: 'CRXJS',
-    description:
-      'Modern Chrome extension development with built-in HMR and zero-config setup.',
-    full: {
-      title: 'CRXJS Documentation',
-      description: 'The complete CRXJS documentation.',
-    },
+    domain: 'https://crxjs-website.netlify.app',
+    title: 'CRXJS Documentation',
+    description: 'Modern Chrome extension development with built-in HMR and zero-config setup.',
+    sections: [
+      {
+        title: 'Getting Started',
+        description: 'Learn how to set up and use CRXJS',
+        links: [
+          {
+            title: 'Introduction',
+            href: '/guide/introduction',
+            description: 'Overview of CRXJS features and capabilities',
+          },
+          {
+            title: 'Quick Start with create-crxjs',
+            href: '/guide/installation/create-crxjs',
+            description: 'Create a new project using the official starter template',
+          },
+          {
+            title: 'Manual Setup',
+            href: '/guide/installation/from-scratch',
+            description: 'Step-by-step guide for manual installation',
+          },
+          {
+            title: 'Loading Extensions',
+            href: '/guide/installation/loading',
+            description: 'How to load and test your extension in Chrome',
+          },
+          {
+            title: 'Building for Production',
+            href: '/guide/installation/packaging',
+            description: 'Prepare your extension for distribution',
+          },
+        ],
+      },
+      {
+        title: 'Core Concepts',
+        description: 'Key concepts for CRXJS development',
+        links: [
+          {
+            title: 'Manifest Configuration',
+            href: '/concepts/manifest',
+            description: 'Understanding the manifest.json file structure',
+          },
+          {
+            title: 'Background Scripts',
+            href: '/concepts/background',
+            description: 'Working with extension background processes',
+          },
+          {
+            title: 'Content Scripts',
+            href: '/concepts/content',
+            description: 'Injecting scripts into web pages',
+          },
+          {
+            title: 'Extension Pages',
+            href: '/concepts/pages',
+            description: 'Creating popup and options pages',
+          },
+        ],
+      },
+    ],
   },
 })
