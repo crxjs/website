@@ -12,10 +12,12 @@ const { copy } = useClipboard({
 
 const { toast } = useToast()
 
+const { t } = useI18n()
+
 async function handleClick() {
   await copy(text)
   toast({
-    description: `Copied "${text}" to clipboard`,
+    description: t('copiedToClipboard', { text }),
   })
 }
 </script>

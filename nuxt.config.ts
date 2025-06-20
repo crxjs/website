@@ -48,6 +48,11 @@ export default defineNuxtConfig({
         name: 'English',
         language: 'en-US',
       },
+      {
+        code: 'zh',
+        name: '简体中文',
+        language: 'zh-CN',
+      },
     ],
   },
 

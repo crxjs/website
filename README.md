@@ -10,6 +10,6 @@ This documentation is built based on `shadcn-docs-nuxt` . Please check out the s
 - [ ] Add tutorial GIFs demonstrating browser extension loading(content/loading.md)
 - [x] Develop a guide for bundling extensions(content/packaging.md)
 - [x] Update the `shadcn-docs` to [v1](https://shadcn-docs-nuxt.vercel.app/blog/v1)
-- [ ] Implement i18n (internationalization) support
+- [x] Implement i18n (internationalization) support
 - [x] support AI , add `llm.txt`
 - [ ] Create an `awesome-crx` showcase in the CRXJS repository to feature extensions built with CRXJS, and display it on the documentation (inspired by [awesome-vite](https://github.com/vitejs/awesome-vite))

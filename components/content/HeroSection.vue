@@ -8,6 +8,12 @@ defineProps<{
   }
 }>()
 const isDark = computed(() => useColorMode().value === 'dark')
+
+const { locale } = useI18n()
+function startPage() {
+  const lang = locale.value === 'en' ? '' : `/${locale.value}`
+  return `${lang}/guide/installation/create-crxjs`
+}
 </script>
 
 <template>
@@ -56,12 +62,12 @@ const isDark = computed(() => useColorMode().value === 'dark')
     </h1>
 
     <span class="mt-4 text-center text-lg text-gray-600 sm:text-xl dark:text-gray-200">
-      Modern Chrome extension development with built-in HMR and zero-config setup
+      {{ $t('description') }}
     </span>
 
     <div class="mt-4 flex w-full items-center justify-center space-x-4 py-4 md:pb-10">
-      <NuxtLink to="/guide/installation/create-crxjs">
-        <RainbowButton> Get Started </RainbowButton>
+      <NuxtLink :to="startPage()">
+        <RainbowButton> {{ $t('getStarted') }} </RainbowButton>
       </NuxtLink>
       <NuxtLink
         to="https://github.com/crxjs/chrome-extension-tools"
