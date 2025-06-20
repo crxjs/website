@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   site: {
-    url: 'https://crxjs.dev',
+    url: 'https://crxjs-website.netlify.app',
     title: 'CRXJS',
     description:
       'Modern Chrome extension development with built-in HMR and zero-config setup.',

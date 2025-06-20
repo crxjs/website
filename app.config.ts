@@ -3,6 +3,8 @@ export default defineAppConfig({
     site: {
       name: 'CRXJS',
       description: 'Modern Chrome extension development with built-in HMR and zero-config setup',
+      ogImageComponent: 'ShadcnDocs',
+      ogImageColor: 'dark',
     },
     theme: {
       customizable: true,
