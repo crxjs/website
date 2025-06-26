@@ -54,7 +54,7 @@ export default defineAppConfig({
       },
     },
     footer: {
-      credits: 'Copyright © 2025',
+      credits: 'This site is powered by [**Netlify**](https://www.netlify.com)',
       links: [
         {
           icon: 'simple-icons:discord',

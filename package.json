@@ -25,6 +25,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^4.13.0",
     "@iconify-json/carbon": "^1.2.8",
+    "@iconify-json/catppuccin": "^1.2.11",
     "@iconify-json/devicon": "^1.2.23",
     "@iconify-json/logos": "^1.2.4",
     "@iconify-json/mdi": "^1.2.3",
