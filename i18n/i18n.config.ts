@@ -9,6 +9,7 @@ export default defineI18nConfig(() => ({
       'Edit this page': 'Edit this page',
       'On This Page': 'On This Page',
       'Back to Top': 'Back to Top',
+      'Read more at': 'Read more at',
     },
     zh: {
       'description': 'CRXJS 是一个现代化的 Chrome 扩展开发工具，内置 HMR 和零配置。',
@@ -17,6 +18,7 @@ export default defineI18nConfig(() => ({
       'Edit this page': '编辑此页面',
       'On This Page': '本页目录',
       'Back to Top': '返回顶部',
+      'Read more at': '更多信息请参考',
     },
   },
 }))

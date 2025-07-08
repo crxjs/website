@@ -49,8 +49,8 @@ export default defineAppConfig({
         'svg': 'vscode-icons:file-type-svg',
         'png': 'vscode-icons:file-type-image',
         'svelte': 'vscode-icons:file-type-svelte',
-        'manifest.config.js': 'vscode-icons:file-type-config',
-        'manifest.config.ts': 'vscode-icons:file-type-config',
+        'manifest.config.js': 'vscode-icons:file-type-manifest',
+        'manifest.config.ts': 'vscode-icons:file-type-manifest',
       },
     },
     footer: {
