@@ -10,6 +10,8 @@ export default defineI18nConfig(() => ({
       'On This Page': 'On This Page',
       'Back to Top': 'Back to Top',
       'Read more at': 'Read more at',
+      'Star on GitHub': 'Star on GitHub',
+      'Create Issues': 'Create Issues',
     },
     zh: {
       'description': 'CRXJS 是一个现代化的 Chrome 扩展开发工具，内置 HMR 和零配置。',
@@ -19,6 +21,8 @@ export default defineI18nConfig(() => ({
       'On This Page': '本页目录',
       'Back to Top': '返回顶部',
       'Read more at': '更多信息请参考',
+      'Star on GitHub': '在 GitHub 上点个小星星',
+      'Create Issues': '在 GitHub 上寻求帮助',
     },
   },
 }))
