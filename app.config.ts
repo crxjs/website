@@ -19,7 +19,29 @@ export default defineAppConfig({
         light: '/logo.svg',
         dark: '/logo-dark.svg',
       },
-      nav: [],
+      nav: [{
+        title: 'Docs',
+        links: [{
+          title: 'Getting Started',
+          to: '/guide/installation/create-crxjs',
+          description: 'Create a CRXJS project',
+          icon: 'lucide:rocket',
+        }, {
+          title: 'Concepts',
+          to: '/concepts/manifest',
+          description: 'concepts and features',
+          icon: 'lucide:book-open',
+        }],
+      }, {
+        title: 'awesome-crxjs',
+        to: '/awesome',
+        target: '_self',
+        showLinkIcon: false,
+      }, {
+        title: 'rollup-plugin',
+        to: 'https://www.extend-chrome.dev/rollup-plugin',
+        target: '_blank',
+      }],
       links: [{
         icon: 'lucide:github',
         to: 'https://github.com/crxjs/chrome-extension-tools',
