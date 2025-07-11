@@ -30,11 +30,11 @@ export default defineAppConfig({
         }, {
           title: 'Concepts',
           to: '/concepts/manifest',
-          description: 'concepts and features',
+          description: 'Concepts and features',
           icon: 'lucide:book-open',
         }],
       }, {
-        title: 'awesome-crxjs',
+        title: 'Awesome-CRXJS',
         to: '/awesome',
         target: '_self',
         showLinkIcon: false,
@@ -108,7 +108,7 @@ export default defineAppConfig({
     },
     search: {
       enable: true,
-      inAside: false,
+      inAside: true,
     },
   },
 })
