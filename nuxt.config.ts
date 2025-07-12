@@ -1,5 +1,3 @@
-import type { LLMsSection } from 'nuxt-llms'
-
 export default defineNuxtConfig({
   extends: ['shadcn-docs-nuxt'],
 
@@ -18,7 +16,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   site: {
-    url: 'https://crxjs-website.netlify.app',
+    url: 'https://crxjs.netlify.app/',
     title: 'CRXJS',
     description:
       'Modern Chrome extension development with built-in HMR and zero-config setup.',
@@ -28,6 +26,11 @@ export default defineNuxtConfig({
     highlight: {
       langs: ['svelte', 'tsx'],
     },
+  },
+
+  routeRules: {
+    '/vite-plugin': { redirect: '/' },
+    '/:locale/vite-plugin': { redirect: '/:locale/' },
   },
 
   compatibilityDate: '2025-06-21',
@@ -55,7 +58,6 @@ export default defineNuxtConfig({
       },
     ],
   },
-
   llms: {
     domain: 'https://crxjs-website.netlify.app',
     title: 'CRXJS Documentation',
