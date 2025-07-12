@@ -7,9 +7,9 @@ description: CRXJS 是一个现代化的 Chrome 扩展开发工具，内置 HMR 
 ::hero-section
 ---
 announcement:
-  title: Release create-crxjs
+  title: v2.0 release
   icon: i-mdi:package-variant-closed
-  to: https://github.com/crxjs/create-crxjs
+  to: https://github.com/crxjs/chrome-extension-tools/discussions/1020
   target: _blank
 ---
 ::

@@ -30,7 +30,7 @@ export default defineNuxtConfig({
 
   routeRules: {
     '/vite-plugin': { redirect: '/' },
-    '/:locale/vite-plugin': { redirect: '/:locale/' },
+    '/:locale/vite-plugin': { redirect: '/' },
   },
 
   compatibilityDate: '2025-06-21',
@@ -59,9 +59,13 @@ export default defineNuxtConfig({
     ],
   },
   llms: {
-    domain: 'https://crxjs-website.netlify.app',
+    domain: 'https://crxjs.netlify.app/',
     title: 'CRXJS Documentation',
     description: 'Modern Chrome extension development with built-in HMR and zero-config setup.',
+    full: {
+      title: 'CRXJS Documentation',
+      description: 'Modern Chrome extension development with built-in HMR and zero-config setup.',
+    },
     sections: [
       {
         title: 'Getting Started',
