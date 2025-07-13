@@ -81,7 +81,7 @@ export default defineAppConfig({
       links: [
         {
           icon: 'simple-icons:discord',
-          to: 'https://discord.gg/5yHKEa9v',
+          to: 'https://discord.com/invite/FnnE4XR7Wj',
           target: '_blank',
         },
         {
