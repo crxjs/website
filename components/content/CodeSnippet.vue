@@ -10,7 +10,7 @@ const loadedCode = ref('')
 if (import.meta.client) {
   try {
     const data = await $fetch<string>(
-      `https://raw.githubusercontent.com/crxjs/create-crxjs/refs/heads/main${url}`,
+      `https://raw.githubusercontent.com/crxjs/create-crxjs/refs/heads/main/templates${url}`,
       { parseResponse: txt => txt },
     )
     if (data) {

@@ -7,67 +7,67 @@
     title="crxjs-vanilla"
   >
     <ImageDisplay
-      url="/template-vanilla-ts/public/logo.png"
+      url="/vanilla-ts/public/logo.png"
       alt-text="crx_logo"
       filename="public/logo.png"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/crx.svg"
+      url="/vanilla-ts/src/assets/crx.svg"
       alt-text="crx_logo"
       filename="src/assets/crx.svg"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/ts.svg"
+      url="/vanilla-ts/src/assets/ts.svg"
       alt-text="ts_logo"
       filename="src/assets/ts.svg"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/vite.svg"
+      url="/vanilla-ts/src/assets/vite.svg"
       alt-text="vite_logo"
       filename="src/assets/vite.svg"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/src/content/main.ts"
+      url="/vanilla-ts/src/content/main.ts"
       language="ts"
       filename="src/content/main.ts"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/src/popup/counter.ts"
+      url="/vanilla-ts/src/popup/counter.ts"
       language="ts"
       filename="src/popup/counter.ts"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/src/popup/index.html"
+      url="/vanilla-ts/src/popup/index.html"
       language="html"
       filename="src/popup/index.html"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/src/popup/main.ts"
+      url="/vanilla-ts/src/popup/main.ts"
       language="ts"
       filename="src/popup/main.ts"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/src/popup/style.css"
+      url="/vanilla-ts/src/popup/style.css"
       language="css"
       filename="src/popup/style.css"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/manifest.config.ts"
+      url="/vanilla-ts/manifest.config.ts"
       language="ts"
       filename="manifest.config.ts"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/package.json"
+      url="/vanilla-ts/package.json"
       language="json"
       filename="package.json"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/tsconfig.json"
+      url="/vanilla-ts/tsconfig.json"
       language="json"
       filename="tsconfig.json"
     />
     <CodeSnippet
-      url="/template-vanilla-ts/vite.config.ts"
+      url="/vanilla-ts/vite.config.ts"
       language="ts"
       filename="vite.config.ts"
     />

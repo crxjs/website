@@ -7,81 +7,81 @@
     title="crxjs-vue"
   >
     <ImageDisplay
-      url="/template-vanilla-ts/public/logo.png"
+      url="/vanilla-ts/public/logo.png"
       alt-text="crx_logo"
       filename="public/logo.png"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/crx.svg"
+      url="/vanilla-ts/src/assets/crx.svg"
       alt-text="crx_logo"
       filename="src/assets/crx.svg"
     />
     <ImageDisplay
-      url="/template-vue-ts/src/assets/vue.svg"
+      url="/vue-ts/src/assets/vue.svg"
       alt-text="vue_logo"
       filename="src/assets/vue.svg"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/vite.svg"
+      url="/vanilla-ts/src/assets/vite.svg"
       alt-text="vite_logo"
       filename="src/assets/vite.svg"
     />
 
     <CodeSnippet
-      url="/template-vue-ts/src/components/HelloWorld.vue"
+      url="/vue-ts/src/components/HelloWorld.vue"
       language="vue"
       filename="src/components/HelloWorld.vue"
     />
 
     <CodeSnippet
-      url="/template-vue-ts/src/content/views/App.vue"
+      url="/vue-ts/src/content/views/App.vue"
       language="vue"
       filename="src/content/views/App.vue"
     />
     <CodeSnippet
-      url="/template-vue-ts/src/content/main.ts"
+      url="/vue-ts/src/content/main.ts"
       language="ts"
       filename="src/content/main.ts"
     />
 
     <CodeSnippet
-      url="/template-vue-ts/src/popup/App.vue"
+      url="/vue-ts/src/popup/App.vue"
       language="vue"
       filename="src/popup/App.vue"
     />
     <CodeSnippet
-      url="/template-vue-ts/src/popup/index.html"
+      url="/vue-ts/src/popup/index.html"
       language="html"
       filename="src/popup/index.html"
     />
     <CodeSnippet
-      url="/template-vue-ts/src/popup/main.ts"
+      url="/vue-ts/src/popup/main.ts"
       language="ts"
       filename="src/popup/main.ts"
     />
     <CodeSnippet
-      url="/template-vue-ts/src/popup/style.css"
+      url="/vue-ts/src/popup/style.css"
       language="css"
       filename="src/popup/style.css"
     />
 
     <CodeSnippet
-      url="/template-vanilla-ts/manifest.config.ts"
+      url="/vanilla-ts/manifest.config.ts"
       language="ts"
       filename="manifest.config.ts"
     />
     <CodeSnippet
-      url="/template-vue-ts/package.json"
+      url="/vue-ts/package.json"
       language="json"
       filename="package.json"
     />
     <CodeSnippet
-      url="/template-vue-ts/tsconfig.json"
+      url="/vue-ts/tsconfig.json"
       language="json"
       filename="tsconfig.json"
     />
     <CodeSnippet
-      url="/template-vue-ts/vite.config.ts"
+      url="/vue-ts/vite.config.ts"
       language="ts"
       filename="vite.config.ts"
     />

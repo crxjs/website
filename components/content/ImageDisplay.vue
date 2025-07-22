@@ -8,7 +8,7 @@ const { url, altText } = defineProps<{
 const iconUrl = ref('')
 
 try {
-  iconUrl.value = `https://raw.githubusercontent.com/crxjs/create-crxjs/refs/heads/main${url}`
+  iconUrl.value = `https://raw.githubusercontent.com/crxjs/create-crxjs/refs/heads/main/templates${url}`
 }
 catch {
   console.error(`Cannot load icon: ${url}`)

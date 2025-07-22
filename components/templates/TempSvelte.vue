@@ -7,81 +7,81 @@
     title="crxjs-svelte"
   >
     <ImageDisplay
-      url="/template-vanilla-ts/public/logo.png"
+      url="/vanilla-ts/public/logo.png"
       alt-text="crx_logo"
       filename="public/logo.png"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/crx.svg"
+      url="/vanilla-ts/src/assets/crx.svg"
       alt-text="crx_logo"
       filename="src/assets/crx.svg"
     />
     <ImageDisplay
-      url="/template-svelte-ts/src/assets/svelte.svg"
+      url="/svelte-ts/src/assets/svelte.svg"
       alt-text="svelte_logo"
       filename="src/assets/svelte.svg"
     />
     <ImageDisplay
-      url="/template-vanilla-ts/src/assets/vite.svg"
+      url="/vanilla-ts/src/assets/vite.svg"
       alt-text="vite_logo"
       filename="src/assets/vite.svg"
     />
 
     <CodeSnippet
-      url="/template-svelte-ts/src/components/HelloWorld.svelte"
+      url="/svelte-ts/src/components/HelloWorld.svelte"
       language="svelte"
       filename="src/components/HelloWorld.svelte"
     />
 
     <CodeSnippet
-      url="/template-svelte-ts/src/content/views/App.svelte"
+      url="/svelte-ts/src/content/views/App.svelte"
       language="svelte"
       filename="src/content/views/App.svelte"
     />
     <CodeSnippet
-      url="/template-svelte-ts/src/content/main.ts"
+      url="/svelte-ts/src/content/main.ts"
       language="ts"
       filename="src/content/main.ts"
     />
 
     <CodeSnippet
-      url="/template-svelte-ts/src/popup/App.svelte"
+      url="/svelte-ts/src/popup/App.svelte"
       language="svelte"
       filename="src/popup/App.svelte"
     />
     <CodeSnippet
-      url="/template-svelte-ts/src/popup/index.html"
+      url="/svelte-ts/src/popup/index.html"
       language="html"
       filename="src/popup/index.html"
     />
     <CodeSnippet
-      url="/template-svelte-ts/src/popup/main.ts"
+      url="/svelte-ts/src/popup/main.ts"
       language="ts"
       filename="src/popup/main.ts"
     />
     <CodeSnippet
-      url="/template-svelte-ts/src/popup/style.css"
+      url="/svelte-ts/src/popup/style.css"
       language="css"
       filename="src/popup/style.css"
     />
 
     <CodeSnippet
-      url="/template-vanilla-ts/manifest.config.ts"
+      url="/vanilla-ts/manifest.config.ts"
       language="ts"
       filename="manifest.config.ts"
     />
     <CodeSnippet
-      url="/template-svelte-ts/package.json"
+      url="/svelte-ts/package.json"
       language="json"
       filename="package.json"
     />
     <CodeSnippet
-      url="/template-svelte-ts/tsconfig.json"
+      url="/svelte-ts/tsconfig.json"
       language="json"
       filename="tsconfig.json"
     />
     <CodeSnippet
-      url="/template-svelte-ts/vite.config.ts"
+      url="/svelte-ts/vite.config.ts"
       language="ts"
       filename="vite.config.ts"
     />
