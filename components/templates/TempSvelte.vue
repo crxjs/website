@@ -26,13 +26,11 @@
       alt-text="vite_logo"
       filename="src/assets/vite.svg"
     />
-
     <CodeSnippet
       url="/svelte-ts/src/components/HelloWorld.svelte"
       language="svelte"
       filename="src/components/HelloWorld.svelte"
     />
-
     <CodeSnippet
       url="/svelte-ts/src/content/views/App.svelte"
       language="svelte"
@@ -43,7 +41,6 @@
       language="ts"
       filename="src/content/main.ts"
     />
-
     <CodeSnippet
       url="/svelte-ts/src/popup/App.svelte"
       language="svelte"
@@ -64,7 +61,26 @@
       language="css"
       filename="src/popup/style.css"
     />
-
+    <CodeSnippet
+      url="/svelte-ts/src/sidepanel/App.svelte"
+      language="svelte"
+      filename="src/sidepanel/App.svelte"
+    />
+    <CodeSnippet
+      url="/svelte-ts/src/sidepanel/index.html"
+      language="html"
+      filename="src/sidepanel/index.html"
+    />
+    <CodeSnippet
+      url="/svelte-ts/src/sidepanel/main.ts"
+      language="ts"
+      filename="src/sidepanel/main.ts"
+    />
+    <CodeSnippet
+      url="/svelte-ts/src/sidepanel/style.css"
+      language="css"
+      filename="src/sidepanel/style.css"
+    />
     <CodeSnippet
       url="/vanilla-ts/manifest.config.ts"
       language="ts"

@@ -52,6 +52,26 @@
       filename="src/popup/style.css"
     />
     <CodeSnippet
+      url="/vanilla-ts/src/sidepanel/counter.ts"
+      language="ts"
+      filename="src/sidepanel/counter.ts"
+    />
+    <CodeSnippet
+      url="/vanilla-ts/src/sidepanel/index.html"
+      language="html"
+      filename="src/sidepanel/index.html"
+    />
+    <CodeSnippet
+      url="/vanilla-ts/src/sidepanel/main.ts"
+      language="ts"
+      filename="src/sidepanel/main.ts"
+    />
+    <CodeSnippet
+      url="/vanilla-ts/src/sidepanel/style.css"
+      language="css"
+      filename="src/sidepanel/style.css"
+    />
+    <CodeSnippet
       url="/vanilla-ts/manifest.config.ts"
       language="ts"
       filename="manifest.config.ts"
