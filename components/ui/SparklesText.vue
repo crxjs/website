@@ -84,7 +84,7 @@ onUnmounted(() => {
         v-for="sparkle in sparkles"
         :key="sparkle.id"
       >
-        <!-- Animated star SVG with fade, scale, and rotation effects -->
+        <!--Animated star SVG with fade, scale, and rotation effects-->
         <Motion
           :initial="{ opacity: 0, scale: 0, rotate: 75 }"
           :animate="{

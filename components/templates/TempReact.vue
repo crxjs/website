@@ -26,13 +26,11 @@
       alt-text="vite_logo"
       filename="src/assets/vite.svg"
     />
-
     <CodeSnippet
       url="/react-ts/src/components/HelloWorld.tsx"
       language="tsx"
       filename="src/components/HelloWorld.tsx"
     />
-
     <CodeSnippet
       url="/react-ts/src/content/views/App.css"
       language="css"
@@ -48,7 +46,6 @@
       language="tsx"
       filename="src/content/main.tsx"
     />
-
     <CodeSnippet
       url="/react-ts/src/popup/App.css"
       language="css"
@@ -74,7 +71,31 @@
       language="tsx"
       filename="src/popup/main.tsx"
     />
-
+    <CodeSnippet
+      url="/react-ts/src/sidepanel/App.css"
+      language="css"
+      filename="src/sidepanel/App.css"
+    />
+    <CodeSnippet
+      url="/react-ts/src/sidepanel/App.tsx"
+      language="tsx"
+      filename="src/sidepanel/App.tsx"
+    />
+    <CodeSnippet
+      url="/react-ts/src/sidepanel/index.css"
+      language="css"
+      filename="src/sidepanel/index.css"
+    />
+    <CodeSnippet
+      url="/react-ts/src/sidepanel/index.html"
+      language="html"
+      filename="src/sidepanel/index.html"
+    />
+    <CodeSnippet
+      url="/react-ts/src/sidepanel/main.tsx"
+      language="tsx"
+      filename="src/sidepanel/main.tsx"
+    />
     <CodeSnippet
       url="/vanilla-ts/manifest.config.ts"
       language="ts"

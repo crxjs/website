@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const md = ref('')
 const loading = ref(true)
-const MARKER = '<!-- document-render-start-flag -->'
+const MARKER = '<!--document-render-start-flag-->'
 const { t } = useI18n()
 
 if (import.meta.client) {

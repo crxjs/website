@@ -74,7 +74,31 @@
       language="tsx"
       filename="src/popup/index.tsx"
     />
-
+    <CodeSnippet
+      url="/solid-ts/src/sidepanel/App.css"
+      language="css"
+      filename="src/sidepanel/App.css"
+    />
+    <CodeSnippet
+      url="/solid-ts/src/sidepanel/App.tsx"
+      language="tsx"
+      filename="src/sidepanel/App.tsx"
+    />
+    <CodeSnippet
+      url="/solid-ts/src/sidepanel/index.css"
+      language="css"
+      filename="src/sidepanel/index.css"
+    />
+    <CodeSnippet
+      url="/solid-ts/src/sidepanel/index.html"
+      language="html"
+      filename="src/sidepanel/index.html"
+    />
+    <CodeSnippet
+      url="/solid-ts/src/sidepanel/index.tsx"
+      language="tsx"
+      filename="src/sidepanel/index.tsx"
+    />
     <CodeSnippet
       url="/vanilla-ts/manifest.config.ts"
       language="ts"
