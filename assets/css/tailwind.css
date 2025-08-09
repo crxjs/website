@@ -96,3 +96,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+.awesome-content a {
+  display: inline-block;
+}
+
+.awesome-content a img {
+  width: 32px;
+}
