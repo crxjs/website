@@ -2,7 +2,7 @@ export default defineAppConfig({
   shadcnDocs: {
     site: {
       name: 'CRXJS',
-      description: 'Modern Chrome extension development with built-in HMR and zero-config setup',
+      description: 'Build cross-browser extensions with native HMR and zero-config setup',
       ogImage: '/ogImage.png',
       ogImageComponent: 'ShadcnDocs',
       ogImageColor: 'dark',

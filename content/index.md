@@ -1,7 +1,7 @@
 ---
 title: CRXJS
 navigation: false
-description: Modern Chrome extension development with built-in HMR and zero-config setup
+description: Build cross-browser extensions with native HMR and zero-config setup
 ---
 
 ::hero-section

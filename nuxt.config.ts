@@ -18,8 +18,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://crxjs.dev/',
     title: 'CRXJS',
-    description:
-      'Modern Chrome extension development with built-in HMR and zero-config setup.',
+    description: 'Build cross-browser extensions with native HMR and zero-config setup',
   },
 
   mdc: {
@@ -61,10 +60,10 @@ export default defineNuxtConfig({
   llms: {
     domain: 'https://crxjs.dev/',
     title: 'CRXJS Documentation',
-    description: 'Modern Chrome extension development with built-in HMR and zero-config setup.',
+    description: 'Build cross-browser extensions with native HMR and zero-config setup.',
     full: {
       title: 'CRXJS Documentation',
-      description: 'Modern Chrome extension development with built-in HMR and zero-config setup.',
+      description: 'Build cross-browser extensions with native HMR and zero-config setup.',
     },
     sections: [
       {
