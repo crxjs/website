@@ -34,7 +34,7 @@ if (import.meta.client) {
 
 <template>
   <div class="container">
-    <div class="max-w-3xl mx-auto">
+    <div class="max-w-3xl mx-auto awesome-content">
       <div class="pb-6 border-b border-border">
         <h1 class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl mb-4 transition-colors hover:text-primary">
           {{ t('Awesome-CRXJS') }}

@@ -26,13 +26,11 @@
       alt-text="vite_logo"
       filename="src/assets/vite.svg"
     />
-
     <CodeSnippet
       url="/vue-ts/src/components/HelloWorld.vue"
       language="vue"
       filename="src/components/HelloWorld.vue"
     />
-
     <CodeSnippet
       url="/vue-ts/src/content/views/App.vue"
       language="vue"
@@ -43,7 +41,6 @@
       language="ts"
       filename="src/content/main.ts"
     />
-
     <CodeSnippet
       url="/vue-ts/src/popup/App.vue"
       language="vue"
@@ -64,7 +61,26 @@
       language="css"
       filename="src/popup/style.css"
     />
-
+    <CodeSnippet
+      url="/vue-ts/src/sidepanel/App.vue"
+      language="vue"
+      filename="src/sidepanel/App.vue"
+    />
+    <CodeSnippet
+      url="/vue-ts/src/sidepanel/index.html"
+      language="html"
+      filename="src/sidepanel/index.html"
+    />
+    <CodeSnippet
+      url="/vue-ts/src/sidepanel/main.ts"
+      language="ts"
+      filename="src/sidepanel/main.ts"
+    />
+    <CodeSnippet
+      url="/vue-ts/src/sidepanel/style.css"
+      language="css"
+      filename="src/sidepanel/style.css"
+    />
     <CodeSnippet
       url="/vanilla-ts/manifest.config.ts"
       language="ts"
