@@ -3,9 +3,11 @@ export default defineAppConfig({
     site: {
       name: 'CRXJS',
       description: 'Build cross-browser extensions with native HMR and zero-config setup',
-      ogImage: '/ogImage.png',
-      ogImageComponent: 'ShadcnDocs',
-      ogImageColor: 'dark',
+      umami: {
+        enable: true,
+        src: 'https://crxjs.dev/',
+        dataWebsiteId: '53be2965-3ce3-41a8-ad89-eb8d22892b00',
+      },
     },
     theme: {
       customizable: true,
