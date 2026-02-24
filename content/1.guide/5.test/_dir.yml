@@ -1,4 +1,4 @@
-title: e2e 测试
+title: E2E Testing
 icon: simple-icons:vitest
 navigation.redirect: /guide/test/installation
 navBadges:
