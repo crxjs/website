@@ -1,0 +1,6 @@
+title: e2e 测试
+icon: simple-icons:vitest
+navigation.redirect: /guide/test/installation
+navBadges:
+  - value: Beta
+    type: lime
