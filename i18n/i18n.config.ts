@@ -3,7 +3,7 @@ export default defineI18nConfig(() => ({
   locale: 'en',
   messages: {
     en: {
-      'description': 'Build cross-browser extensions with native HMR and zero-config setup',
+      'description': 'Build cross-browser extensions with native HMR, zero-config setup, and Vite 8 support',
       'getStarted': 'Get Started',
       'copiedToClipboard': 'Copied "{text}" to clipboard',
       'Edit this page': 'Edit this page',
@@ -22,7 +22,7 @@ export default defineI18nConfig(() => ({
       'Contribute your CRXJS project': 'Contribute Your CRXJS Project',
     },
     zh: {
-      'description': '现代化跨浏览器扩展开发：原生 HMR 与开箱即用的零配置',
+      'description': '现代化跨浏览器扩展开发：原生 HMR、开箱即用的零配置与 Vite 8 支持',
       'getStarted': '开始使用',
       'copiedToClipboard': '已复制 "{text}" 到剪贴板',
       'Edit this page': '编辑此页面',
