@@ -2,7 +2,7 @@ export default defineAppConfig({
   shadcnDocs: {
     site: {
       name: 'CRXJS',
-      description: 'Build cross-browser extensions with native HMR and zero-config setup',
+      description: 'Build cross-browser extensions with native HMR, zero-config setup, and Vite 8 support',
       umami: {
         enable: true,
         src: 'https://crxjs.dev/',

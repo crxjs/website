@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://crxjs.dev/',
     title: 'CRXJS',
-    description: 'Build cross-browser extensions with native HMR and zero-config setup',
+    description: 'Build cross-browser extensions with native HMR, zero-config setup, and Vite 8 support',
   },
 
   mdc: {
@@ -60,10 +60,10 @@ export default defineNuxtConfig({
   llms: {
     domain: 'https://crxjs.dev/',
     title: 'CRXJS Documentation',
-    description: 'Build cross-browser extensions with native HMR and zero-config setup.',
+    description: 'Build cross-browser extensions with native HMR, zero-config setup, and Vite 8 support.',
     full: {
       title: 'CRXJS Documentation',
-      description: 'Build cross-browser extensions with native HMR and zero-config setup.',
+      description: 'Build cross-browser extensions with native HMR, zero-config setup, and Vite 8 support.',
     },
     sections: [
       {
