@@ -34,6 +34,11 @@ export default defineAppConfig({
           to: '/concepts/manifest',
           description: 'Concepts and features',
           icon: 'lucide:book-open',
+        }, {
+          title: 'Demos',
+          to: '/demos',
+          description: 'Examples and playgrounds',
+          icon: 'lucide:monitor-play',
         }],
       }, {
         title: 'Awesome-CRXJS',

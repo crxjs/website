@@ -123,6 +123,27 @@ export default defineNuxtConfig({
           },
         ],
       },
+      {
+        title: 'Demos',
+        description: 'Example extension fixtures and contributor playgrounds',
+        links: [
+          {
+            title: 'Demos',
+            href: '/demos',
+            description: 'Browse CRXJS demo fixtures and contributor playgrounds',
+          },
+          {
+            title: 'E2E Demo Fixtures',
+            href: 'https://github.com/crxjs/chrome-extension-tools/tree/main/packages/vite-plugin/tests/e2e',
+            description: 'Tested extension examples for framework integrations and Manifest V3 behavior',
+          },
+          {
+            title: 'Contributor Playgrounds',
+            href: 'https://github.com/crxjs/chrome-extension-tools/tree/main/playgrounds',
+            description: 'Runnable playground projects for CRXJS contributors',
+          },
+        ],
+      },
     ],
   },
 })
