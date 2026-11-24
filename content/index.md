@@ -13,3 +13,5 @@ announcement:
   target: _blank
 ---
 ::
+
+**Building for multiple browsers?** Read the [browser support and compatibility notes](/guide/introduction#browser-support) before you start.
