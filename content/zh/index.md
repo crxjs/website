@@ -13,3 +13,5 @@ announcement:
   target: _blank
 ---
 ::
+
+**准备为多个浏览器构建扩展吗？** 开始前请先阅读[浏览器支持与兼容性说明](/guide/introduction#browser-support)。
